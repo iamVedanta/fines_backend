@@ -1,0 +1,41 @@
+# Node.js dependencies
+/node_modules/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build output
+/dist
+/build
+
+# Temporary files
+*.swp
+*.swo
+
+# IDE/editor config files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Coverage directory (if using testing tools)
+/coverage/
+
+# Database files (if any)
+*.sqlite
+*.db
+
+# Package lock and yarn lock files (if you prefer using Yarn or npm without these)
+package-lock.json
+yarn.lock
+
+# Mac specific files
+*.DS_Store
