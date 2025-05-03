@@ -8,6 +8,8 @@ dotenv.config();
 
 MONGO_URI = process.env.MONGO_URI;
 const app = express();
+app.use(express.json()); // for parsing application/json
+app.use(express.urlencoded({ extended: true })); // for parsing form data
 
 app.use("/api/auth", authRoutes);
 app.use(express.json());
